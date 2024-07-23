@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.881);
+    overflow-x: hidden;
+}
+.card{
+  
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: black;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search input{
+    border: 0;
+    outline: 0;
+background: #ebfffc;
+color: #555;
+padding: 10px 25px;
+height: 50px;
+border-radius: 30px;
+flex: 1;
+margin-right: 16px;
+font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+background: #ebfffc;
+border-radius: 50%;
+width: 35px;
+height: 35px;
+cursor: pointer;
+}
+.search button img {
+    width: 16px;
+
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 10px;
+}
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 30px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: none;
+}
+@media only screen and (min-width:344px){
+   
+    .card{
+  
+        max-width: 400px;
+        background: linear-gradient(135deg, #00feba, #5b548a);
+        color: black;
+        margin: 100px auto;
+        border-radius: 10px;
+        padding: 1px 1px;
+        text-align: center;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col img{
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.humidity, .wind{
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+}
+
+    
